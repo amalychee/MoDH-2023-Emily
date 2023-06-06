@@ -1,7 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Geologica:wght@200&family=Montserrat:wght@400;600&display=swap');
+
 *{
     color: navy;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Abril Fatface", display;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
+
+h2, p, a {
+    font-family: "Geologica", sans-serif;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+a:hover{
+    color:darkviolet;
+}
+
+nav {
+    padding-top: 8px;
+    background-color:aliceblue;
+    padding-bottom: 8px;
 }
 
 #disc{
     background-color: aliceblue;
+}
+
+div{
+    max-width: 500px;
+    margin: 16px 0 16px 0;
+    padding: 16px 0 16px 16px;
+    border-radius: 16px;
 }
